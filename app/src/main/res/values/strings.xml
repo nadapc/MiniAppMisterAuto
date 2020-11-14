@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MiniAppMisterAuto</string>
+    <string name="Erreur_connexion_internet">Aucune connexion internet n\'est disponible...</string>
+    <string name="liste_user_vide">Aucun utilisateur n\'est disponible.</string>
+    <string name="liste_user_tasks_vide">Aucune Tache n\'est disponible</string>
+    <string name="liste_user_tasks_ko">Information non disponible</string>
+
+</resources>

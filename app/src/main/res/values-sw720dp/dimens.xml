@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">30dip</dimen>
+    <dimen name="padding_l">35dip</dimen>
+    <dimen name="line">2dip</dimen>
+    <dimen name="text">20sp</dimen>
+    <dimen name="text_s">18sp</dimen>
+    <dimen name="img_height">85dip</dimen>
+    <dimen name="img2_height">40dip</dimen>
+</resources>

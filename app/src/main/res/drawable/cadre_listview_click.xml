@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/cadre_listview_click_off" />
+    <item android:state_pressed="true" android:drawable="@drawable/cadre_listview_click_on" />
+    <item android:state_focused="true" android:drawable="@drawable/cadre_listview_click_on" />
+    <item android:state_enabled="true" android:drawable="@drawable/cadre_listview_click_off" />
+</selector>

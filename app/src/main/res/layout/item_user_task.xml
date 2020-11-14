@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="userTask"
+            type="nei.nada.miniappmisterauto.model.UserTask" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris_tres_claire"
+        android:padding="@dimen/padding"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cadre_listview_click"
+            android:padding="@dimen/padding"
+            >
+
+            <ImageView
+                android:id="@+id/iv_task_completed"
+                android:layout_width="@dimen/img2_height"
+                android:layout_height="@dimen/img2_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/padding"
+                />
+
+            <View
+                android:layout_width="@dimen/line"
+                android:layout_height="match_parent"
+                android:background="@color/mister_auto_orange"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_usertask_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@{userTask.title}"
+                    style="@style/titre_item_phone"
+                    android:ellipsize="end"
+                    android:lines="2"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
